@@ -1,0 +1,19 @@
+# Private build state and game-derived files must never be published.
+.local/
+dist/
+__pycache__/
+*.pyc
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.log
+*.png
+*.jpg
+*.zip
+.env
+.env.*
+original/
+candidate/
+*verification*.json
+*manifest*.json
